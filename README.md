@@ -6,12 +6,13 @@ A Covert Remote Access Tool
 
 ##Usage:
 
-    Run the compiled executable file on the victim's machine.
-    Replace the IP address and port number in the code with that of the attacker's machine.
-    Run a netcat listener on the specified port to receive the command output.
-    Connect to the victim's machine using the specified IP address and port number.
-    Once connected, the input/output will be redirected to the attacker's machine and the attacker can execute commands on the victim's machine.
-    To exit, simply terminate the netcat listener and the remote process will exit automatically.
+    *Run the compiled executable file on the victim's machine.
+    *Replace the IP address and port number in the code with that of the attacker's machine.
+    *Run a netcat listener on the specified port to receive the command output.
+    *Connect to the victim's machine using the specified IP address and port number.
+    *Once connected, the input/output will be redirected to the attacker's machine and
+    the attacker can execute commands on the victim's machine.
+    *To exit, simply terminate the netcat listener and the remote process will exit automatically.
 
 ##Note:
 
