@@ -4,7 +4,7 @@ A Covert Remote Access Tool
 
     No installation required. Simply download the code and compile it using a C++ compiler.
 
-##Usage:
+## Usage:
 
     1-Run the compiled executable file on the victim's machine.
     
@@ -19,7 +19,7 @@ A Covert Remote Access Tool
     
     6-To exit, simply terminate the netcat listener and the remote process will exit automatically.
 
-##Note:
+## Note:
 
     This code is for educational purposes only and should not be used for illegal activities.
     The victim machine must have the necessary runtime libraries installed for the code to run.
