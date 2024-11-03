@@ -1,1 +1,7 @@
+{
+    "inject_shadow": true,
+    "persistence": true,
+    "evasion": true,
+    "privilege_escalate": false
+}
 
