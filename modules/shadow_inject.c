@@ -16,6 +16,7 @@ void inject_to_shadow(const char *payload) {
     
     // Exemplu de manipulare de bază (fără Assembly pentru moment)
     // Creează un fișier shadow folosind syscall-uri (doar simulare)
+ /**
     HANDLE hFile = CreateFile(
         "C:\\Windows\\Temp\\shadow_payload.dat",
         GENERIC_WRITE,
@@ -39,6 +40,26 @@ void inject_to_shadow(const char *payload) {
     }
 
     CloseHandle(hFile);
+}
+ */
+// shadow_inject.c
+extern void shadow_initialize();
+extern void shadow_inject();
+extern void shadow_cleanup();
+
+void initialize_shadow_injection() {
+    log_event("Initializing shadow injection...");
+    shadow_initialize();
+}
+
+void inject_to_shadow(const char *payload) {
+    log_event("Injecting payload into shadow cache...");
+    shadow_inject();
+}
+
+void cleanup_shadow_injection() {
+    log_event("Cleaning up shadow injection...");
+    shadow_cleanup();
 }
 
 // Curăță shadow cache-ul eliminând payload-ul
