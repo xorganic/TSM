@@ -77,8 +77,8 @@ TSM.exe --priv-escalate --evasion
 ---
 ## Configuration
 ### JSON Configuration (config.json)
-**TSM's behavior can be customized via config.json to adjust targets and operational settings dynamically:**
-#### **target_directories: **Specifies directories to stage payloads within shadow and temp files.
+** TSM's behavior can be customized via config.json to adjust targets and operational settings dynamically:**
+#### **target_directories: ** Specifies directories to stage payloads within shadow and temp files. 
 #### **enable_persistence:** Boolean to enable or disable persistent payload regeneration.
 #### **escalate_privileges:** Boolean to activate privilege escalation routines as required.
 ---
