@@ -55,13 +55,15 @@ make all
 The output TSM.exe will be generated in the build/ directory.
 
 Command-Line Flags
-Flag	Description
---inject-shadow	Activates shadow cache injection routines
---persistence	Enables persistence via shadow cache and temporary files
---evasion	Enables sandbox/VM/EDR evasion mechanisms
---priv-escalate	Attempts to elevate privileges
---debug	Enables verbose logging for debugging purposes
---clean	Cleans up all created files and injected payloads
+| Flag              | Description                                        |
+|-------------------|----------------------------------------------------|
+| `--inject-shadow` | Activates shadow cache injection routines          |
+| `--persistence`   | Enables persistence via shadow cache and temp files|
+| `--evasion`       | Enables sandbox/VM/EDR evasion mechanisms          |
+| `--priv-escalate` | Attempts to elevate privileges                     |
+| `--debug`         | Enables verbose logging for debugging              |
+| `--clean`         | Cleans up all created files and injected payloads  |
+
 Examples
 To execute TSM with shadow injection and persistence enabled:
 ```
